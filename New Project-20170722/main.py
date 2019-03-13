@@ -1,7 +1,7 @@
 import sys
 import time
 
-// Define the function
+# Define the function
 def progbar(wid):
   #for i in range(wid):
     wid += 1
@@ -15,9 +15,10 @@ def progbar(wid):
         sys.stdout.write(' ')
 
     sys.stdout.write('] ' + str(wid) + '%')
+    # flush it all out
     sys.stdout.flush()
-    
-// Make the progbar count to 100
+
+# Make the progbar count to 100
 for prog in range(100):
     progbar(prog)
     time.sleep(0.05)
