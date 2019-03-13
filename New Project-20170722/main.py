@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Importing things are done here
+=======
+# import necessary packages
+>>>>>>> 5eb3ad1a693607d1ef6d0dc90067a9ec2d5cbcbe
 import sys
 import time
 
