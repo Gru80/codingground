@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Importing things are done here
-=======
-# import necessary packages
->>>>>>> 5eb3ad1a693607d1ef6d0dc90067a9ec2d5cbcbe
 import sys
 import time
 
@@ -28,4 +24,8 @@ for prog in range(100):
     progbar(prog)
     time.sleep(0.05)
 
+# We just print an empty line here
 print("")
+
+# End of file
+# Really - nothing else is comming up next
