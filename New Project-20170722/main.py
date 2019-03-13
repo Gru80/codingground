@@ -8,11 +8,11 @@ def progbar(wid):
     wid += 1
     sys.stdout.write('\r')
     sys.stdout.write('[')
-    for a in range (wid):
+    for _ in range (wid):
         sys.stdout.write('#')
 
     c =100-wid
-    for b in range (c):
+    for _ in range (c):
         sys.stdout.write(' ')
 
     sys.stdout.write('] ' + str(wid) + '%')
