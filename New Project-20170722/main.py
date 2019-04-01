@@ -1,4 +1,7 @@
-# Author: M. Eder
+"""
+Just a simply console progress bar
+Author: M. Eder
+"""
 
 # Importing things are done here
 import sys
@@ -6,15 +9,16 @@ import time
 
 # Define the function
 def progbar(wid):
-  #for i in range(wid):
+    """ this is the progress bar function """
+
     wid += 1
     sys.stdout.write('\r')
     sys.stdout.write('[')
-    for _ in range (wid):
+    for _ in range(wid):
         sys.stdout.write('#')
 
-    c =100-wid
-    for _ in range (c):
+    cnt = 100-wid
+    for _ in range(cnt):
         sys.stdout.write(' ')
 
     sys.stdout.write('] ' + str(wid) + '%')
